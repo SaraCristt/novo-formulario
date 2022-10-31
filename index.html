@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Formulario</title>
+    <link rel="stylesheet" media="(max-width: 800px)" href="estilo.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="campo"> 
+        <h1 id="título"><strong>Dados Pessoais</strong></h1>
+        <br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"></label><strong>Nome</strong></label> 
+                <input type="text" class="form-control" aria-describedby="nomeHelp" placeholder="Seu nome">
+            </div>
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" class="form-control" aria-describedby="sobrenomeHelp" placeholder="Seu sobrenome">
+            </div>
+        </fieldset>
+        <fieldset class="grupo">
+        <div id="check">
+            <br><label><strong>Quail é o seu gênero de livro favorito?</strong></label><br><br>
+            <input type="checkbox" id="livro1" name="livro1" value="AçãoeAventura">
+            <label for="livro1"> Ação e Aventura</label><br>
+            <input type="checkbox" id="livro2" name="livro2" value="Comédia">
+            <label for="livro2"> Comédia </label><br>
+            <input type="checkbox" id="livro3" name="livro3" value="Fantasia">
+            <label for="livro3"> Fantasia</label><br>
+            <input type="checkbox" id="livro4" name="livro4" value="Ficção">
+            <label for="livro4"> Ficção</label><br>
+            <input type="checkbox" id="livro5" name="livro5" value="Romance">
+            <label for="livro5"> Romance</label><br>
+            <input type="checkbox" id="livro6" name="livro6" value="Terror">
+            <label for="livro6"> Terror</label><br>
+        </div>
+    </fieldset>
+        <div class="campo"> 
+            <br><h2><strong>Sobre o site:</strong></h2>
+            <label for="senioridade"><strong>Nosso site foi útil?</strong></label>
+                    <select id="senioridade">
+                      <option selected disabled value="">Selecione</option> 
+                      <option>Sim</option>
+                      <option>Um pouco</option>
+                      <option>Não</option>
+                    </select> 
+        </div>
+    
+        <div class="campo">
+            <label><strong>Dúvida ou sugestões:</strong></label>
+            <input type="text" class="form-control" aria-describedby="duvidasHelp" placeholder="Dúvidas ou sugestões">
+        </div>
+
+
+<button type="button" class="btn btn-success">Concluído</button>
+
+    </form>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+</body>
+</html>
